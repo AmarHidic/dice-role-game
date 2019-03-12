@@ -1,5 +1,6 @@
 # dice-role-game
-Dice role game v-1, made with JavaScript.
+
+JS - dice role game
 
 GAME RULES:
 
@@ -16,4 +17,4 @@ The player can choose to 'Hold', which means that his ROUND score gets added to 
 
 If player rolls same number on both dices and press hold, his current score will be multiplied by 2 and his round is over.
 
-The first player to reach 100 points on GLOBAL score wins the game
+The first player to reach winning score points on GLOBAL score, wins the game.
