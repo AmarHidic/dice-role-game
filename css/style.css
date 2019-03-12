@@ -2,6 +2,31 @@
 *** GENERAL
 **********************************************/
 
+.final-score{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    width: 160px;
+}
+
+.final-score:focus{
+    outline: none;
+}
+
+#dice-1 {
+    top: 120px;
+}
+
+#dice-2 {
+    top: 250px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +66,7 @@ body {
 .player-1-panel {
     width: 50%;
     float: left;
-    height: 600px;
+    height: 680px;
     padding: 100px;
 }
 
@@ -140,6 +165,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+.btn-score { bottom: 15px;}
 
 .dice {
     position: absolute;
